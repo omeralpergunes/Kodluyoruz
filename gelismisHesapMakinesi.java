@@ -97,15 +97,15 @@ public class gelismisHesapMakinesi {
 
     static void divided() {
         Scanner input = new Scanner(System.in);
-        double number, number2;
-        System.out.println("Payi yazin : ");
-        number = input.nextDouble();
-        System.out.println("Paydayi degeri yazin : ");
-        number2 = input.nextDouble();
+        double sayi1, sayi2;
+        System.out.println("Payi yaziniz : ");
+        sayi1 = input.nextDouble();
+        System.out.println("Payda degerini yaziniz : ");
+        sayi2 = input.nextDouble();
 
-        double result = (number / number2);
-        if (number2 == 0) {
-            System.out.println("Hatali sayi yazdiniz payda 0 olamaz tekrar deneyiniz !");
+        double result = (sayi1 / sayi2);
+        if (sayi2 == 0) {
+            System.out.println("Girmiş olduğunuz değer hatalıdır. Lutfen gecerli bir deger giriniz.");
         } else {
             System.out.println("Bolme isleminin snucu : " + result);
         }
@@ -130,7 +130,7 @@ public class gelismisHesapMakinesi {
     static void factorial(){
         int result=1,num;
         Scanner input=new Scanner(System.in);
-        System.out.println("Kac faktoriyel istediginizi girin : ");
+        System.out.println("Kac faktoriyel istediginizi giriniz : ");
         num= input.nextInt();
 
         for (int i=1;i<=num;i++){
@@ -151,7 +151,7 @@ public class gelismisHesapMakinesi {
         double alan =k1*k2;
         double cevre=(k1+k2)*2;
 
-        System.out.println("Diktortgenin alani : " + alan + " Diktortgenin cevresi : "+cevre );
+        System.out.println("Dikdortgenin alani : " + alan + " Dikdortgenin cevresi : " + cevre );
 
 
 
