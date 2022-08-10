@@ -59,13 +59,13 @@ public class gelismisHesapMakinesi {
 
     static void plus() {
         Scanner input = new Scanner(System.in);
-        int number, number2;
+        int sayi1, sayi2;
         System.out.println("1. Sayiyi Giriniz :  ");
-        number = input.nextInt();
+        sayi1 = input.nextInt();
         System.out.println("2. Sayiyi Giriniz :  ");
-        number2 = input.nextInt();
+        sayi2 = input.nextInt();
 
-        int result = (number + number2);
+        int result = (sayi1 + sayi2);
         System.out.println("Toplama isleminin sonucu : " + result);
 
 
@@ -73,25 +73,25 @@ public class gelismisHesapMakinesi {
 
     static void minus() {
         Scanner input = new Scanner(System.in);
-        int number, number2;
+        int sayi1, sayi2;
         System.out.println(" 1. Sayiyi Giriniz :");
-        number = input.nextInt();
+        sayi1 = input.nextInt();
         System.out.println(" 2. Sayiyi Giriniz : ");
-        number2 = input.nextInt();
+        sayi2 = input.nextInt();
 
-        int result = (number - number2);
+        int result = (sayi1 - sayi2);
         System.out.println("Cikarma isleminin sonucu : " + result);
     }
 
     static void times() {
         Scanner input = new Scanner(System.in);
-        int number, number2;
+        int sayi1, sayi2;
         System.out.println(" 1. Sayiyi Giriniz : ");
-        number = input.nextInt();
+        sayi1 = input.nextInt();
         System.out.println(" 2. Sayiyi Giriniz : ");
-        number2 = input.nextInt();
+        sayi2 = input.nextInt();
 
-        int result = (number * number2);
+        int result = (sayi1 * sayi2);
         System.out.println("Carpma isleminin sonucu : " + result);
     }
 
