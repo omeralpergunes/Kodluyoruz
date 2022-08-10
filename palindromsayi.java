@@ -23,7 +23,7 @@ public class palindromsayi {
 
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        System.out.println("Palindrom olup olmadığını kontrol emek istediğiniz sayıyı giriniz:");
+        System.out.println("Palindrom olup olmadigini kontrol etmek istediginiz sayiyi giriniz:");
         int number= input.nextInt();
         System.out.println(isPalindrom(number));
 
