@@ -1,1 +1,1 @@
-# Kodluyoruz - Java 101 Eğitimi
+# Kodluyoruz & Patika - Java 101 Eğitimi
